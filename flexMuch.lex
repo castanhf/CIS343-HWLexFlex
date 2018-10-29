@@ -68,7 +68,7 @@ end	{
 
 [ \t\n]+	/* ignores whitespaces */
 
-.	printf("ERROR: %s\n", yytext);
+.	printf("ERROR on line 1: %s\n", yytext);
 
 %%
 
