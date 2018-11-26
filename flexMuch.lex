@@ -20,7 +20,7 @@ end	{
 	printf("\n");
 }
 
-"point"	{
+point	{
 	printf("POINT\t");
 	printLexeme();
 	printf("\n");
